@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "thi-TH-module5"
+    }
+  },
+  "defaultProject": "thi-TH-module5",
+  "cli": {
+    "analytics": "128a063e-f48a-484e-87e2-0ac80a3940cb"
+  }
 }

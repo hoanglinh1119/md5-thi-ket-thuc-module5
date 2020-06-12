@@ -1,0 +1,13 @@
+<div *ngIf="book; else nothing">
+  <h4>Tên sách :
+    {{book.title}}
+  </h4>
+  <h4> Tác giả :   {{book.author}}
+  </h4>
+  <p> Mô tả :   {{book.description}}
+  </p>
+</div>
+
+<ng-template #nothing>
+  <p>Nothing to show</p>
+</ng-template>
